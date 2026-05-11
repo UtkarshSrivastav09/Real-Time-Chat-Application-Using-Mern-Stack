@@ -2,8 +2,6 @@
 
 Nexus Chat is a high-performance, industry-grade real-time chat application built using the MERN stack. It features a modern, glassmorphic UI/UX and seamless communication capabilities.
 
-![Nexus Chat Banner](https://github-production-user-asset-6210df.s3.amazonaws.com/your-image-url-here.png)
-
 ## ✨ Features
 
 - **Real-Time Messaging**: Instant message delivery using Socket.io.
