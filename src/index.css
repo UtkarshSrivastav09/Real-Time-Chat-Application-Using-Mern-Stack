@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --color-whatsapp-teal: #128c7e;
+  --color-whatsapp-green: #25d366;
+  --color-whatsapp-dark: #111b21;
+  --color-whatsapp-bg: #0b141a;
+  --color-whatsapp-panel: #202c33;
+  --color-whatsapp-bubble: #005c4b;
+  --color-whatsapp-bubble-received: #202c33;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #111827; /* gray-900 */
+    color: #f3f4f6; /* gray-100 */
+    overflow: hidden;
+  }
+}
+
+/* Custom scrollbar for chat area */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
